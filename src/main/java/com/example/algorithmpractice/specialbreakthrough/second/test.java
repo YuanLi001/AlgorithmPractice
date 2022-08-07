@@ -7,6 +7,8 @@ package com.example.algorithmpractice.specialbreakthrough.second;
  */
 public class test {
     public static void main(String[] args) {
-
+        char ch='a';
+        System.out.println(ch);
+        System.out.println(ch+"");
     }
 }
