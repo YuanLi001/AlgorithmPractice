@@ -1,4 +1,4 @@
-package com.example.algorithmpractice.specialbreakthrough.third;
+package com.example.algorithmpractice.specialbreakthrough.second;
 
 /**
  * @author YuanLi

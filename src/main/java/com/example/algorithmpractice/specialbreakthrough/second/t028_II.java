@@ -1,4 +1,4 @@
-package com.example.algorithmpractice.specialbreakthrough.third;
+package com.example.algorithmpractice.specialbreakthrough.second;
 
 /**
  * @author YuanLi
@@ -6,21 +6,21 @@ package com.example.algorithmpractice.specialbreakthrough.third;
  * @date 2022/8/10 9:34
  */
 public class t028_II {
-    public Node flatten(Node head) {
+    public com.example.algorithmpractice.specialbreakthrough.second.Node flatten(com.example.algorithmpractice.specialbreakthrough.second.Node head) {
         dfs(head);
         return head;
     }
 
-    public Node dfs(Node node) {
-        Node cur = node;
+    public com.example.algorithmpractice.specialbreakthrough.second.Node dfs(com.example.algorithmpractice.specialbreakthrough.second.Node node) {
+        com.example.algorithmpractice.specialbreakthrough.second.Node cur = node;
         // 记录链表的最后一个节点
-        Node last = null;
+        com.example.algorithmpractice.specialbreakthrough.second.Node last = null;
 
         while (cur != null) {
-            Node next = cur.next;
+            com.example.algorithmpractice.specialbreakthrough.second.Node next = cur.next;
             //  如果有子节点，那么首先处理子节点
             if (cur.child != null) {
-                Node childLast = dfs(cur.child);
+                com.example.algorithmpractice.specialbreakthrough.second.Node childLast = dfs(cur.child);
 
                 //  将 node 与 child 相连
                 cur.next = cur.child;
