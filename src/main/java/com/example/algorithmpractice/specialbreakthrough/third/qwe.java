@@ -7,8 +7,11 @@ package com.example.algorithmpractice.specialbreakthrough.third;
  */
 public class qwe {
     public static void main(String[] args) {
-        int a=10,b=a-1;
-        System.out.println(a);
-        System.out.println(b);
+//        int a=10,b=a-1;
+//        System.out.println(a);
+//        System.out.println(b);
+        String a="qweasd";
+        String b="qweasd";
+        System.out.println(a.equals(b));
     }
 }
