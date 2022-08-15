@@ -1,6 +1,8 @@
 package com.example.algorithmpractice.specialbreakthrough.third;
 
+import java.util.ArrayDeque;
 import java.util.Collections;
+import java.util.Deque;
 
 /**
  * @author YuanLi
@@ -26,5 +28,6 @@ public class qwe {
 //        System.out.println(s.equals(s2));
 //        System.out.println(s==s2);
 //        Collections.sort();
+        Deque<Integer> a= new ArrayDeque<>();
     }
 }
