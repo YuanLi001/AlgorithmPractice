@@ -12,7 +12,7 @@ public class t039 {
     public int largestRectangleArea(int[] heights){
         Deque<Integer> stack=new LinkedList<>();
         stack.push(-1);
-        int max=-1;
+        int max=0;
         for (int i = 0; i < heights.length; i++) {
             Integer peek = stack.peek();
             if(peek!=-1 && heights[peek]<=heights[i]){
