@@ -9,11 +9,15 @@ import java.util.ArrayList;
  */
 public class qwe {
     public static void main(String[] args) {
-        ArrayList<Integer> list=new ArrayList<>();
-        list.add(111);
-        list.add(222);
-        System.out.println(list.get(0));
-        list.remove(0);
-        System.out.println(list.get(0));
+//        ArrayList<Integer> list=new ArrayList<>();
+//        list.add(111);
+//        list.add(222);
+//        System.out.println(list.get(0));
+//        list.remove(0);
+//        System.out.println(list.get(0));
+        String s="qqq";
+//        s=s+"q";
+//        System.out.println(s);
+//        s=s-"q";
     }
 }
