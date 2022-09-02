@@ -36,9 +36,24 @@ public class qwe {
 //        PathSum pathSum=new PathSum();
 //        pathSum.pathSum(treeNode1,3);
 
-        Queue<Integer> queue= new LinkedList<>();
-        queue.offer(1);
-        queue.offer(2);
-        System.out.println(queue.peek());
+//        Queue<Integer> queue= new LinkedList<>();
+//        queue.offer(1);
+//        queue.offer(2);
+//        System.out.println(queue.peek());
+
+//        System.out.println(-1/10);
+//        System.out.println(-1%10);
+//        System.out.println(-9/10);
+//        System.out.println(-9%10);
+//        System.out.println(-10/10);
+//        System.out.println(-10%10);
+//        System.out.println(-11/10);
+//        System.out.println(-11%10);
+
+        int a=Integer.MAX_VALUE;
+        System.out.println(a);
+        long b;
+        b=a+1;
+        System.out.println(b);
     }
 }
