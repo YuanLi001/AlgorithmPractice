@@ -23,5 +23,8 @@ public class ceshi {
 //        ret.add(list);
 //        ret.add(list);
 //        System.out.println(ret);
+        Trie trie=new Trie();
+        trie.insert("apple");
+        trie.insert("app");
     }
 }
