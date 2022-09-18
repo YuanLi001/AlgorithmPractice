@@ -1,5 +1,7 @@
 package com.example.algorithmpractice.specialbreakthrough.six;
 
+import java.util.Arrays;
+
 /**
  * @author YuanLi
  * @version 1.0
@@ -15,5 +17,7 @@ public class ceshi {
         System.out.println(mid*mid);
         long mid2=1073697800;
         System.out.println(mid2*mid2);
+        int[] arr=new int[2];
+        Arrays.sort(arr);
     }
 }
