@@ -7,8 +7,14 @@ package com.example.algorithmpractice.specialbreakthrough.seven;
  */
 public class ceshi {
     public static void main(String[] args) {
-        boolean[] arr=new boolean[10];
-        System.out.println(arr[0]);
-        System.out.println(arr[1]);
+//        boolean[] arr=new boolean[10];
+//        System.out.println(arr[0]);
+//        System.out.println(arr[1]);
+        StringBuilder sb=new StringBuilder();
+        System.out.println(sb);
+        sb.append("qwe");
+        System.out.println(sb);
+        sb.append("asd");
+        System.out.println(sb);
     }
 }
