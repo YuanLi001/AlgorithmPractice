@@ -16,5 +16,7 @@ public class ceshi {
         System.out.println(sb);
         sb.append("asd");
         System.out.println(sb);
+        String s1 = new String("123");
+//        s1.intern()
     }
 }
