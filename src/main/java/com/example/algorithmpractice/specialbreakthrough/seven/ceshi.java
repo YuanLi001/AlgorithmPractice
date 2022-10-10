@@ -10,13 +10,18 @@ public class ceshi {
 //        boolean[] arr=new boolean[10];
 //        System.out.println(arr[0]);
 //        System.out.println(arr[1]);
-        StringBuilder sb=new StringBuilder();
-        System.out.println(sb);
-        sb.append("qwe");
-        System.out.println(sb);
-        sb.append("asd");
-        System.out.println(sb);
-        String s1 = new String("123");
+//        StringBuilder sb=new StringBuilder();
+//        System.out.println(sb);
+//        sb.append("qwe");
+//        System.out.println(sb);
+//        sb.append("asd");
+//        System.out.println(sb);
+//        String s1 = new String("123");
 //        s1.intern()
+        long a=1;
+        for (int i = 18; i >=9; i--) {
+            a*=i;
+            System.out.println(a);
+        }
     }
 }
