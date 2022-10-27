@@ -42,13 +42,19 @@ public class qwe {
 //        System.out.println(1^5);
 //        System.out.println( (22-18)/2);
 //        System.out.println(2^10);
-        System.out.println(Integer.toBinaryString(32));
-        System.out.println(Integer.toBinaryString(18));
-        System.out.println(Integer.toBinaryString(4));
-        System.out.println(Integer.toBinaryString(21));
-        System.out.println(Integer.toBinaryString(2));
-        System.out.println(Integer.toBinaryString(10));
-        System.out.println(Integer.toBinaryString(5));
-        System.out.println(Integer.toBinaryString(22));
+
+//        System.out.println(Integer.toBinaryString(32));
+//        System.out.println(Integer.toBinaryString(18));
+//        System.out.println(Integer.toBinaryString(4));
+//        System.out.println(Integer.toBinaryString(21));
+//        System.out.println(Integer.toBinaryString(2));
+//        System.out.println(Integer.toBinaryString(10));
+//        System.out.println(Integer.toBinaryString(5));
+//        System.out.println(Integer.toBinaryString(22));
+
+        String s="1234";
+        Object o;
+        char[] chars = s.toCharArray();
+
     }
 }
