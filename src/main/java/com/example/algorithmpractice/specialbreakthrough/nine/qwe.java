@@ -15,11 +15,18 @@ public class qwe {
 //        System.out.println(a+1);
 //        char b= (char) (a+1);
 //        System.out.println(b);
-        String a="123456";
-        char[] chars = a.toCharArray();
-        System.out.println(chars.toString());
-        int[] arr=new int[2];
-        System.out.println(arr.toString());
+//        String a="123456";
+//        char[] chars = a.toCharArray();
+//        System.out.println(chars.toString());
+//        int[] arr=new int[2];
+//        System.out.println(arr.toString());
+
+//        System.out.println(-1%100);
+//        System.out.println(-10%100);
+
+        int num=648;
+        num%=100;
+        System.out.println(num);
 
     }
 }
