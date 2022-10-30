@@ -52,9 +52,34 @@ public class qwe {
 //        System.out.println(Integer.toBinaryString(5));
 //        System.out.println(Integer.toBinaryString(22));
 
-        String s="1234";
-        Object o;
-        char[] chars = s.toCharArray();
+//        String s="1234";
+//        Object o;
+//        char[] chars = s.toCharArray();
+//        System.out.println(gcd(3,2));
+//        System.out.println(gcd(3,0));
+//        System.out.println(gcd(2,4));
+//        System.out.println(gcd(4,2));
+//        System.out.println(gcd(3,6));
+//        System.out.println(gcd(9,6));
+//        System.out.println(gcd(198,996));
+//        System.out.println(198/6);
+//        System.out.println(996/6);
+        System.out.println(gcd(10000,9999));
+        System.out.println(gcd(90000,9999));
+        System.out.println(gcd(92300,9999));
+        System.out.println(gcd(92301,9991));
+        System.out.println(gcd(123451,543211));
+    }
 
+    public static int gcd(int a, int b){
+        int cn=0;
+        while (b != 0){
+            int tmp = a % b;
+            a = b;
+            b = tmp;
+            cn++;
+        }
+        System.out.println("cn="+cn);
+        return a;
     }
 }
