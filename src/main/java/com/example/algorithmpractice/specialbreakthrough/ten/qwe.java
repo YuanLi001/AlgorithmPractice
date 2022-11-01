@@ -8,7 +8,8 @@ package com.example.algorithmpractice.specialbreakthrough.ten;
 public class qwe {
     public static void main(String[] args) {
 //        int a=1;
-        int a=1;
+//        int a=1;
+        double a=1.0d;
         System.out.println(a);
     }
 }
