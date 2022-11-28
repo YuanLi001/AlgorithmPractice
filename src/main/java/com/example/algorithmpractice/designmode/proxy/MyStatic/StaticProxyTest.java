@@ -1,4 +1,4 @@
-package com.example.algorithmpractice.designmode.proxy;
+package com.example.algorithmpractice.designmode.proxy.MyStatic;
 
 /**
  * @author YuanLi

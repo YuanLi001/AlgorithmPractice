@@ -1,4 +1,4 @@
-package com.example.algorithmpractice.designmode.proxy;
+package com.example.algorithmpractice.designmode.proxy.MyStatic;
 
 /**
  * @author YuanLi
@@ -7,6 +7,9 @@ package com.example.algorithmpractice.designmode.proxy;
  */
 public class Student implements Person {
     private String name;
+
+    public Student() {
+    }
 
     public Student(String name) {
         this.name = name;
