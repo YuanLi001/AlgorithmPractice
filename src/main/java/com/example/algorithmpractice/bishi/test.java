@@ -12,7 +12,7 @@ public class test {
     public static void main(String[] args) {
 //        ConcurrentHashMap concurrentHashMap=new ConcurrentHashMap();
 //        concurrentHashMap.put()
-        HashSet set=new HashSet<>();
-        set.add()
+//        HashSet set=new HashSet<>();
+//        set.add()
     }
 }
