@@ -10,9 +10,11 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class test {
     public static void main(String[] args) {
-//        ConcurrentHashMap concurrentHashMap=new ConcurrentHashMap();
-//        concurrentHashMap.put()
-//        HashSet set=new HashSet<>();
-//        set.add()
+        StringBuilder sb=new StringBuilder();
+        for (int i = 0; i < 16; i++) {
+            sb.append("7");
+        }
+        System.out.println(sb);
+        System.out.println(  System.currentTimeMillis() );
     }
 }

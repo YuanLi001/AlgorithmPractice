@@ -11,6 +11,7 @@ public class ttt {
 
     public static void main(String[] args) {
 //        RandomAccessFile
+        System.out.println("qwe");
     }
 
 }
