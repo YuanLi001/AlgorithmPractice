@@ -1,5 +1,8 @@
 package com.example.algorithmpractice.hot100.baidu;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * @author YuanLi
  * @version 1.0
@@ -14,7 +17,8 @@ public class t2 {
             sum=sum+(n-i);
         }
         System.out.println(n+":"+sum);
-
+//        Deque
+//        ArrayDeque
     }
 
 }
